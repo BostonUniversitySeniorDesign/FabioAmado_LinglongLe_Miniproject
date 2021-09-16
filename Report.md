@@ -11,22 +11,44 @@ The link above contains the plotted result from an extended wifi scan, which ran
 
 One reason for this pattern could be due to workers returning from their lunch break. The period of highest activity was in the region of 12:47 PM to 12:53 PM, which is just before most peoples lunch breaks end. Thus the increased traffic in this period could be from people hoping to be back into their workplaces before 1:00pm after having lunch. The peaks in activity from 1:03 to 1:13 PM could also be attributed to lunch breaks. Workplaces could have been holding company activities or group lunches that were scheduled from 12:00 PM to 1:00 pm, and as such would not be worried about being back in the office before 1:00 pm. At no point in time of this scan however, were there any deadlocks or periods of extreme congestion, as shown by the variance in the data minute by minute. Had a traffic jam occurred, then there would be a more consistent amount of cars over time, without the jumps between highs and lows in the amount of detected cars.
 
-## Difficulties Experienced:
-The main difficulties experienced were in the initial setup and startup of the Raspberry Pi. For the Raspberry Pi to properly display to the HDM monitor, it had to have the connections to the HDMI port, mousepad, and keyboard before power was supplied. Additionally, the Raspberry Pi had troubles with connecting to the BU campus Wifi. To solve this, a mobile hotspot was used instead to connect to the internet so that the scans could proceed.
-
 ## Bluetooth Section
 
-#### Bluetooth Data
-1st scan: 24, Buds Pro, Bose AE2 SoundLink  
-2nd scan: 64, Buds, LE, Bose, Tile  
-3rd scan: 35, Buds, Tile, Bose  
-4th scan: 32, Buds Bose, Tile, Galaxy  
-5th scan: 42, Buds, Bose, Galaxy, Tile  
-6th scan: 25, Buds, Galaxy, Tile, LE, Bose  
-7th scan: 24, Buds, Galaxy, Tile, LE, Bose  
-8th scan: 27, Buds, Galaxy, Tile, LE, Bose  
-9th scan: 26, Buds, Galaxy, Tile, Bose  
-10th scan: 28, Buds, Galaxy, Tile, Bose
+#### Extended Wifi Data Plot
+![Bluetooth Data Plot](./bluetooth_data_results/Bluetooth_Device_Plot.png)
+### Bluetooth Data
+1st scan 12:40 PM: 
+  24 Devices
+  2 Named: Buds Pro, Bose AE2 SoundLink  
+2nd scan 12:43-12:48 PM:
+  64 Devices
+  4 Named: Buds Pro, LE-HY BQCE1, Bose AE2 SoundLink, Tile
+3rd scan 12:49 PM:
+  35 Devices
+  3 Named: Buds Pro, Tile, Bose AE2 Soundlink  
+4th scan 12:51 PM:
+  32 Devices
+  4 Named: Buds Pro, Bose AE2 Soundlink, Tile, Galaxy Buds Pro (B300) LE  
+5th scan 12:52 PM: 
+  42 Devices
+  4 Named: Buds Pro, Bose AE2 Soundlink, Tile, Galaxy Buds Pro (B300) LE 
+6th scan 12:54 PM: 
+  25 Devices
+  5 Named: Buds Pro, LE-HY BQCE1, Bose AE2 SoundLink, Tile, Galaxy Buds Pro (B300) LE 
+7th scan 12:55 PM:
+  24 DEvices
+  5 Named: Buds Pro, LE-HY BQCE1, Bose AE2 SoundLink, Tile, Galaxy Buds Pro (B300) LE 
+8th scan 12:56 PM: 
+  27 Devices
+  5 Named: Buds Pro, LE-HY BQCE1, Bose AE2 SoundLink, Tile, Galaxy Buds Pro (B300) LE 
+9th scan 12:57 PM: 
+  26 Devices,  
+  4 Named: Buds Pro, Bose AE2 Soundlink, Tile, Galaxy Buds Pro (B300) LE 
+10th scan 12:59 PM:
+  28 Devices,  
+  4 Named: Buds Pro, Bose AE2 Soundlink, Tile, Galaxy Buds Pro (B300) LE 
 
 #### Discussion and Explanation of Data
 The data above contains the bluetooth scan results from 9 thirty seconds scans and one 5 minute scan. The rasberry pi read the bluetooth devices in its proximity and compiled the data showing the u as the IP address and the n as the device name. Looking at data it can be seen that the pedestrian foottraffic wasn't as much as the wifi scan since the number of data received was less significant than the data results. As the results show using the wifi scan would be a better option than the bluetooth scan as you can read more devices such as modern automobiles and fixed beacons such as TVs, speakers, and modern automobiles.
+
+## Difficulties Experienced:
+The main difficulties experienced were in the initial setup and startup of the Raspberry Pi. For the Raspberry Pi to properly display to the HDM monitor, it had to have the connections to the HDMI port, mousepad, and keyboard before power was supplied. Additionally, the Raspberry Pi had troubles with connecting to the BU campus Wifi. To solve this, a mobile hotspot was used instead to connect to the internet so that the scans could proceed.
