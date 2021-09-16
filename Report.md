@@ -15,7 +15,6 @@ One reason for this pattern could be due to workers returning from their lunch b
 
 #### Extended Wifi Data Plot
 ![Bluetooth Data Plot](./bluetooth_data_results/Bluetooth_Device_Plot.png)
-
 ### Bluetooth Data
 1st scan: 24, Buds Pro, Bose AE2 SoundLink  
 2nd scan: 64, Buds, LE, Bose, Tile  
