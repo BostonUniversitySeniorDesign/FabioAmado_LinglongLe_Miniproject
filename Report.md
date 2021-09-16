@@ -1,6 +1,6 @@
 Make a Report.md as noted above in your GitHub mini-project repository, with the plots you generated and any explanation/difficulties/discussion on your miniproject results.
 
-[15 Minute Wifi Plot](./wifi_data_results/wifi_2021-09-14T12_43_54_results.png)
+![15 Minute Wifi Plot](./wifi_data_results/wifi_2021-09-14T12_43_54_results.png)
 
 The link above contains the plotted result from an extended wifi scan, which ran for around 35 minutes, from 12:45 PM to 1:20 PM. In this plot, it is clear that there was some variation in the amount of cars detected at any one time, with the amount of cars detected ranging from 0 to 11 at any given time. In the plot there were periods of relatively high activity from 12:47 PM to 12:53 PM and from 1:03 PM to 1:13 PM, while the almost no activity was detected from 12:53 PM to 1:02 PM. Analyzing the results, it is clear that there were more cars passing by during the periods of high activity, while there was a lull in traffic during the period of low activity. 
 
