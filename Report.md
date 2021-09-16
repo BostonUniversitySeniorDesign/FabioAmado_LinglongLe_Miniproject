@@ -17,15 +17,15 @@ The main difficulties experienced were in the initial setup and startup of the R
 ## Bluetooth Section
 
 ### Bluetooth Data
-1st scan: 24, Buds Pro, Bose AE2 SoundLink/n
-2nd scan: 64, Buds, LE, Bose, Tile
-3rd scan: 35, Buds, Tile, Bose
-4th scan: 32, Buds Bose, Tile, Galaxy
-5th scan: 42, Buds, Bose, Galaxy, Tile
-6th scan: 25, Buds, Galaxy, Tile, LE, Bose
-7th scan: 24, Buds, Galaxy, Tile, LE, Bose
-8th scan: 27, Buds, Galaxy, Tile, LE, Bose
-9th scan: 26, Buds, Galaxy, Tile, Bose
+1st scan: 24, Buds Pro, Bose AE2 SoundLink  
+2nd scan: 64, Buds, LE, Bose, Tile  
+3rd scan: 35, Buds, Tile, Bose  
+4th scan: 32, Buds Bose, Tile, Galaxy  
+5th scan: 42, Buds, Bose, Galaxy, Tile  
+6th scan: 25, Buds, Galaxy, Tile, LE, Bose  
+7th scan: 24, Buds, Galaxy, Tile, LE, Bose  
+8th scan: 27, Buds, Galaxy, Tile, LE, Bose  
+9th scan: 26, Buds, Galaxy, Tile, Bose  
 10th scan: 28, Buds, Galaxy, Tile, Bose
 
 #### Discussion and Explanation of Data
