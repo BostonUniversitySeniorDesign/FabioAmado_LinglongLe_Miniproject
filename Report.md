@@ -16,7 +16,17 @@ The main difficulties experienced were in the initial setup and startup of the R
 
 ## Bluetooth Section
 
-### Link to Bluetooth Data
+### Bluetooth Data
+1st scan: 24, Buds Pro, Bose AE2 SoundLink
+2nd scan: 64, Buds, LE, Bose, Tile
+3rd scan: 35, Buds, Tile, Bose
+4th scan: 32, Buds Bose, Tile, Galaxy
+5th scan: 42, Buds, Bose, Galaxy, Tile
+6th scan: 25, Buds, Galaxy, Tile, LE, Bose
+7th scan: 24, Buds, Galaxy, Tile, LE, Bose
+8th scan: 27, Buds, Galaxy, Tile, LE, Bose
+9th scan: 26, Buds, Galaxy, Tile, Bose
+10th scan: 28, Buds, Galaxy, Tile, Bose
 
 #### Discussion and Explanation of Data
-The link above contains the bluetooth scan results from 9 thirty seconds scans and one 5 minute scan. The rasberry pi read the bluetooth devices in its proximity and compiled the data showing the u as the IP address and the n was the device name. Looking at the data in the txt file it can be seen that the pedestrian foottraffic wasn't as much as the wifi scan since the number of data received was less significant than the data results.
+The data above contains the bluetooth scan results from 9 thirty seconds scans and one 5 minute scan. The rasberry pi read the bluetooth devices in its proximity and compiled the data showing the u as the IP address and the n as the device name. Looking at data it can be seen that the pedestrian foottraffic wasn't as much as the wifi scan since the number of data received was less significant than the data results. As the results show using the wifi scan would be a better option than the bluetooth scan as you can read more devices such as modern automobiles and fixed beacons such as TVs, speakers, and modern automobiles.
