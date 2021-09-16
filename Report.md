@@ -11,10 +11,10 @@ The link above contains the plotted result from an extended wifi scan, which ran
 
 One reason for this pattern could be due to workers returning from their lunch break. The period of highest activity was in the region of 12:47 PM to 12:53 PM, which is just before most peoples lunch breaks end. Thus the increased traffic in this period could be from people hoping to be back into their workplaces before 1:00pm after having lunch. The peaks in activity from 1:03 to 1:13 PM could also be attributed to lunch breaks. Workplaces could have been holding company activities or group lunches that were scheduled from 12:00 PM to 1:00 pm, and as such would not be worried about being back in the office before 1:00 pm. At no point in time of this scan however, were there any deadlocks or periods of extreme congestion, as shown by the variance in the data minute by minute. Had a traffic jam occurred, then there would be a more consistent amount of cars over time, without the jumps between highs and lows in the amount of detected cars.
 
-## Difficulties Experienced:
-The main difficulties experienced were in the initial setup and startup of the Raspberry Pi. For the Raspberry Pi to properly display to the HDM monitor, it had to have the connections to the HDMI port, mousepad, and keyboard before power was supplied. Additionally, the Raspberry Pi had troubles with connecting to the BU campus Wifi. To solve this, a mobile hotspot was used instead to connect to the internet so that the scans could proceed.
-
 ## Bluetooth Section
+
+#### Extended Wifi Data Plot
+![Bluetooth Data Plot](./bluetooth_data_results/Bluetooth_Device_Plot.png)
 
 ### Bluetooth Data
 1st scan: 24, Buds Pro, Bose AE2 SoundLink  
@@ -30,3 +30,6 @@ The main difficulties experienced were in the initial setup and startup of the R
 
 #### Discussion and Explanation of Data
 The data above contains the bluetooth scan results from 9 thirty seconds scans and one 5 minute scan. The rasberry pi read the bluetooth devices in its proximity and compiled the data showing the u as the IP address and the n as the device name. Looking at data it can be seen that the pedestrian foottraffic wasn't as much as the wifi scan since the number of data received was less significant than the data results. As the results show using the wifi scan would be a better option than the bluetooth scan as you can read more devices such as modern automobiles and fixed beacons such as TVs, speakers, and modern automobiles.
+
+## Difficulties Experienced:
+The main difficulties experienced were in the initial setup and startup of the Raspberry Pi. For the Raspberry Pi to properly display to the HDM monitor, it had to have the connections to the HDMI port, mousepad, and keyboard before power was supplied. Additionally, the Raspberry Pi had troubles with connecting to the BU campus Wifi. To solve this, a mobile hotspot was used instead to connect to the internet so that the scans could proceed.
