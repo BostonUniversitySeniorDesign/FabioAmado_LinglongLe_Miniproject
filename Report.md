@@ -18,4 +18,5 @@ The main difficulties experienced were in the initial setup and startup of the R
 
 ### Link to Bluetooth Data
 
-### Discussion and Explanation of Data
+#### Discussion and Explanation of Data
+The link above contains the bluetooth scan results from 9 thirty seconds scans and one 5 minute scan. The rasberry pi read the bluetooth devices in its proximity and compiled the data showing the u as the IP address and the n was the device name. Looking at the data in the txt file it can be seen that the pedestrian foottraffic wasn't as much as the wifi scan since the number of data received was less significant than the data results.
