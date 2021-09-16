@@ -1,8 +1,8 @@
 # 2021 Hardware Miniproject
 
-Fall 2021 ECE Senior Capstone miniproject Repository
+Fall 2021 ECE Senior Capstone Miniproject Repository
 
-For Fabio Amando and Linglong Le
+For Fabio Amado and Linglong Le
 
 Report Linked Below:
 
