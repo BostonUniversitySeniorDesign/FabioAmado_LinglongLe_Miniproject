@@ -13,3 +13,9 @@ One reason for this pattern could be due to workers returning from their lunch b
 
 ## Difficulties Experienced:
 The main difficulties experienced were in the initial setup and startup of the Raspberry Pi. For the Raspberry Pi to properly display to the HDM monitor, it had to have the connections to the HDMI port, mousepad, and keyboard before power was supplied. Additionally, the Raspberry Pi had troubles with connecting to the BU campus Wifi. To solve this, a mobile hotspot was used instead to connect to the internet so that the scans could proceed.
+
+## Bluetooth Section
+
+### Link to Bluetooth Data
+
+### Discussion and Explanation of Data
